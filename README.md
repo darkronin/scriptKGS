@@ -1,0 +1,2 @@
+# scriptKGS
+scripts for ShinKGS
