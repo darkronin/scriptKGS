@@ -11,7 +11,7 @@ Get your eyes some rest and kill the white background.
 
  * rotate board
  
-Rotate the board 180 degrees - can be useful to match the relay board with the streaming video, if upside down.
+Rotate the board 180 degrees - can be useful to match the relay board with the streaming video, if the relayer is sitting opposite the camera.
 
  * color-coded chat
  
