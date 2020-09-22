@@ -1,0 +1,1 @@
+javascript:(function(){document.getElementsByClassName("RoomChat-messages")[0].style.background="darkslategrey"; document.getElementsByClassName("RoomChat-sidebar")[0].style.background="darkturquoise";document.getElementsByClassName("ChatScreen-active-chat")[0].style.left="160px";document.getElementsByClassName("UserChat")[0].style.background="darkturquoise";})();
