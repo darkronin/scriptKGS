@@ -14,8 +14,9 @@ List of all the scripts:
 Planned
  * skins
  * spinwheel board
-
-HOW TO USE
+ * stone clicks + bioyomi sounds
+ 
+## HOW TO USE
  * create a new bookmark
  * in the URL, copy/paste the code of the script
  * when ShinKGS is running, click on the bookmark to activate the functionality
