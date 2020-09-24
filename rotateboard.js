@@ -1,1 +1,1 @@
-javascript:(function(){document.getElementsByClassName("Board Board-size-19")[0].style.transform="rotate(180deg)";})();
+javascript:(function(){document.getElementsByClassName("Board Board-size-19")[0].style.transform="rotate(180deg)";var l=document.getElementsByClassName("Board-coord-label");for(var k=0;k<l.length;k++)l[k].style.transform="rotate(180deg)";})()
