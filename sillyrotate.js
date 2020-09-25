@@ -1,0 +1,1 @@
+javascript:(function() {var deg=0; setInterval(function(){document.getElementsByClassName("Board Board-size-19")[0].style.transform="rotate("+deg+"deg)";var l=document.getElementsByClassName("Board-coord-label");for(var k=0;k<l.length;k++)l[k].style.transform="rotate("+deg+"deg)"; deg+=5; if (deg==365)deg=0;}, 3000);})();
