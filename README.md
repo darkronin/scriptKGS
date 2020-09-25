@@ -21,3 +21,7 @@ Planned
  * create a new bookmark
  * in the URL, copy/paste the code of the script
  * when ShinKGS is running, click on the bookmark to activate the functionality
+
+Or
+
+ * paste the code in the browser console (developer tools/F12), and hit enter to execute the line, to try them out
