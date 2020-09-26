@@ -10,6 +10,7 @@ List of all the scripts:
   background color | Get your eyes some rest and kill the white background.
   skin from URL    | kill the white background but use an image instead
   rotate board     | Rotate the board 180 degrees - can be useful to match the relay board with the streaming video, if the relayer is sitting opposite the camera.
+  3D board         | Apply a perspective-3D effect to the board
   silly rotate     | Rotate the board clockwise like a clock
   color-coded chat | Assign a (random) colour to each and every user in your current chatroom and color their messages accordingly 
   
