@@ -12,13 +12,14 @@ List of all the scripts:
   rotate board     | Rotate the board 180 degrees - can be useful to match the relay board with the streaming video, if the relayer is sitting opposite the camera.
   3D board         | Apply a perspective-3D effect to the board
   silly rotate     | Rotate the board clockwise like a clock
+  censor           | custom ignore function 
   color-coded chat | Assign a (random) colour to each and every user in your current chatroom and color their messages accordingly 
   
 ### Planned
   - [X] ~~skins~~
   - [ ] spinwheel board
   - [ ] stone clicks + bioyomi sounds
-  - [ ] custom ignore function (blackout or hide messages from users in the censor list)
+  - [x] custom ignore function (blackout or hide messages from users in the censor list)
  
 ## HOW TO USE
  * create a new bookmark
