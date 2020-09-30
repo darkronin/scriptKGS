@@ -14,11 +14,12 @@ List of all the scripts:
   silly rotate     | Rotate the board clockwise like a clock
   censor           | custom ignore function 
   color-coded chat | Assign a (random) colour to each and every user in your current chatroom and color their messages accordingly 
+  stones           | play stone sounds
   
 ### Planned
   - [X] ~~skins~~
   - [ ] spinwheel board
-  - [ ] stone clicks + bioyomi sounds
+  - [ ] ~~stone clicks~~ + bioyomi sounds
   - [x] custom ignore function (blackout or hide messages from users in the censor list)
  
 ## HOW TO USE
