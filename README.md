@@ -1,7 +1,8 @@
 # scriptKGS
 scripts for ShinKGS
 
-a generic project-folder to collect and store in one place bookmarklets that aim to enrich the ShinKGS experience.
+a generic project-folder to collect and store in one place bookmarklets that aim to enrich the ShinKGS experience. The files are all bookmarklets - [wiki](https://support.mozilla.org/en-US/kb/bookmarklets-perform-common-web-page-tasks) - [mozilla](https://support.mozilla.org/en-US/kb/bookmarklets-perform-common-web-page-tasks)
+
 
 List of all the scripts:
 
@@ -30,6 +31,10 @@ List of all the scripts:
   - [ ] notification when (a) specified user(s) come online or go out of sleep mode/"tag status change"
  
 ## HOW TO USE
+For the definition of a bookmarklet, see [Wikipedia](https://support.mozilla.org/en-US/kb/bookmarklets-perform-common-web-page-tasks) or [Mozilla support](https://support.mozilla.org/en-US/kb/bookmarklets-perform-common-web-page-tasks)
+
+In short: 
+
  * create a new bookmark
  * in the URL, copy/paste the code of the script
  * when ShinKGS is running, click on the bookmark to activate the functionality
