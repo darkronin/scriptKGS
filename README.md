@@ -14,7 +14,8 @@ List of all the scripts:
   silly rotate     | Rotate the board clockwise like a clock
   censor           | custom ignore function 
   color-coded chat | Assign a (random) colour to each and every user in your current chatroom and color their messages accordingly 
-  stones           | play stone sounds
+  ccchat+          | optimized version of color-coded chat including also the censor function
+  stones           | play stone sounds on observed games
   unresign         | make the Resign button run away from the mouse during scoring
   noundo           | automatically decline any and all undo requests from the opponent
   noundo-strict    | like noundo, but removes your own undo button as well
@@ -24,6 +25,8 @@ List of all the scripts:
   - [ ] spinwheel board
   - [ ] ~~stone clicks~~ + bioyomi sounds
   - [x] custom ignore function (blackout or hide messages from users in the censor list)
+  - [ ] cumulative amount of undos for a given player
+  - [ ] notification when (a) specified user(s) come online or go out of sleep mode/"tag status change"
  
 ## HOW TO USE
  * create a new bookmark
