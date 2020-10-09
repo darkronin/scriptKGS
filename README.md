@@ -25,6 +25,7 @@ List of all the scripts:
   - [ ] spinwheel board
   - [ ] ~~stone clicks~~ + bioyomi sounds
   - [x] custom ignore function (blackout or hide messages from users in the censor list)
+  - [ ] "popup hell" triggered on undo request (see wiki > hoesay suggestion)
   - [ ] cumulative amount of undos for a given player
   - [ ] notification when (a) specified user(s) come online or go out of sleep mode/"tag status change"
  
