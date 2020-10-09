@@ -1,0 +1,1 @@
+javascript:(function(){function autodecline(){var bs = document.getElementsByClassName('GameUndoPrompt-buttons');if(bs.length > 0)bs[0].getElementsByClassName('Button')[1].click();}setInterval( autodecline, 500 );})();
