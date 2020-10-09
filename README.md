@@ -29,6 +29,7 @@ List of all the scripts:
   - [ ] "popup hell" triggered on undo request (see wiki > hoesay suggestion)
   - [ ] cumulative amount of undos for a given player
   - [ ] notification when (a) specified user(s) come online or go out of sleep mode/"tag status change"
+  - [ ] anti-flood feature (parametric - max 3 lines per user?)
  
 ## HOW TO USE
 For the definition of a bookmarklet, see [Wikipedia](https://support.mozilla.org/en-US/kb/bookmarklets-perform-common-web-page-tasks) or [Mozilla support](https://support.mozilla.org/en-US/kb/bookmarklets-perform-common-web-page-tasks)
