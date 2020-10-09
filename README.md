@@ -16,6 +16,8 @@ List of all the scripts:
   color-coded chat | Assign a (random) colour to each and every user in your current chatroom and color their messages accordingly 
   stones           | play stone sounds
   unresign         | make the Resign button run away from the mouse during scoring
+  noundo           | automatically decline any and all undo requests from the opponent
+  noundo-strict    | like noundo, but removes your own undo button as well
   
 ### Planned
   - [X] ~~skins~~
