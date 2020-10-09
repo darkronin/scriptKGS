@@ -1,7 +1,7 @@
 # scriptKGS
 scripts for ShinKGS
 
-a generic project-folder to collect and store in one place bookmarklets that aim to enrich the ShinKGS experience. The files are all bookmarklets - [wiki](https://support.mozilla.org/en-US/kb/bookmarklets-perform-common-web-page-tasks) - [mozilla](https://support.mozilla.org/en-US/kb/bookmarklets-perform-common-web-page-tasks)
+a generic project-folder to collect and store in one place bookmarklets that aim to enrich the ShinKGS experience. 
 
 
 List of all the scripts:
