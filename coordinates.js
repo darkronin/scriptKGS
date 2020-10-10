@@ -1,0 +1,1 @@
+javascript:(function(){ var a = ['Board-coords-top', 'Board-coords-bottom', 'Board-coords-left', 'Board-coords-right'];for(i in a){var x = document.getElementsByClassName(a[i]);for(j in x)if(x[j] && x[j].style)x[j].style.display = 'none';}  })();
