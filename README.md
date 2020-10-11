@@ -18,7 +18,7 @@ List of all the scripts (type C = chatroom screen; B = board/goban screen):
   silly rotate     | Rotate the board clockwise like a clock    | B🕑
   censor           | custom ignore function that paints the unwanted users' messages black (it has the benefit of making you aware that something is being said while sparing you from seeing what it is; in any case using a "select all" will display the hidden text)  | C🕑
   **color-coded chat** | Assign a (random) colour to each and every user in your current chatroom and color their messages accordingly | C🕑
-  ccchat+          | optimized version of color-coded chat including also the censor function  | C🕑
+  ccchat+          | optimized version of color-coded chat including also the censor function (parameter: censorList) | C🕑
   **ccchat++**         | optimized version of color-coded chat+ including also the anti-flood function (parameter: MAXFLOOD)  | C🕑 
   **stones**           | play stone sounds | B🕑
   unresign         | make the Resign button run away from the mouse during scoring     | B🕑
