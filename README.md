@@ -17,6 +17,7 @@ List of all the scripts:
   censor           | custom ignore function that paints the unwanted users' messages black (it has the benefit of making you aware that something is being said while sparing you from seeing what it is; in any case using a "select all" will display the hidden text)  | C🕑
   color-coded chat | Assign a (random) colour to each and every user in your current chatroom and color their messages accordingly | C🕑
   ccchat+          | optimized version of color-coded chat including also the censor function  | C🕑
+  ccchat++         | optimized version of color-coded chat+ including also the anti-flood function (parameter: MAXFLOOD)  | C🕑 
   stones           | play stone sounds | B🕑
   unresign         | make the Resign button run away from the mouse during scoring     | B🕑
   noundo           | automatically decline any and all undo requests from the opponent | B🕑
@@ -35,11 +36,11 @@ Note: The scripts broadly are divided in chat screen scripts, or board screen sc
   - [X] ~~skins~~
   - [ ] spinwheel board
   - [ ] ~~stone clicks~~ + bioyomi sounds
-  - [x] ~~custom ignore function (blackout or hide messages from users in the censor list)
+  - [x] ~~custom ignore function (blackout or hide messages from users in the censor list)~~
   - [ ] "popup hell" triggered on undo request (see wiki > hoesay suggestion)
   - [ ] cumulative amount of undos for a given player
   - [ ] notification when (a) specified user(s) come online or go out of sleep mode/"tag status change"
-  - [ ] anti-flood feature (parametric - max 3 lines per user?)
+  - [X] ~~anti-flood feature (parametric - max 3 lines per user?)~~
 
 ## HOW TO USE
 For the definition of a bookmarklet, see [Wikipedia](https://support.mozilla.org/en-US/kb/bookmarklets-perform-common-web-page-tasks) or [Mozilla support](https://support.mozilla.org/en-US/kb/bookmarklets-perform-common-web-page-tasks)
