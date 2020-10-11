@@ -1,7 +1,7 @@
 # scriptKGS
 scripts for ShinKGS
 
-a generic project-folder to collect and store in one place bookmarklets that aim to enrich the ShinKGS experience. In bold the recommended ones:
+a generic project-folder to collect and store in one place bookmarklets that aim to enrich the ShinKGS experience. Some examples:
  - color-coded chat, with censoring and anti-flood system: `ccchat++.js`
  - stone sounds `stones.js`
  - auto-decline undo requests `noundo.js`
