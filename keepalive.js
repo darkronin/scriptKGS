@@ -1,0 +1,1 @@
+javascript:(function(){function clickaway(){if(document.getElementsByClassName('MainNav-account-trigger').length > 0)document.getElementsByClassName('MainNav-account-trigger')[0].click();if(document.getElementsByClassName('MainNav-item').length > 0)document.getElementsByClassName('MainNav-item')[2].click();};setInterval( clickaway, 99000 );})();
