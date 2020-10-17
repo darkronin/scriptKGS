@@ -26,6 +26,7 @@ List of all the scripts (type C = chatroom screen; B = board/goban screen):
   unresign         | make the Resign button run away from the mouse during scoring     | B🕑
   **noundo**           | automatically decline any and all undo requests from the opponent | B🕑
   noundo-strict    | like noundo, but removes your own undo button as well             | B🕑
+  expand images    | automatically show inline images when URLs are entered into the chat | C🕑 
   
 All scripts are local and affect one's instance/machine only.
 
