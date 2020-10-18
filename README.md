@@ -22,6 +22,7 @@ List of all the scripts (type C = chatroom screen; B = board/goban screen):
   **color-coded chat** | Assign a (random) colour to each and every user in your current chatroom and color their messages accordingly | C🕑
   ccchat+          | optimized version of color-coded chat including also the censor function (parameter: censorList) | C🕑
   **ccchat++**         | optimized version of color-coded chat+ including also the anti-flood function (parameter: MAXFLOOD)  | C🕑 
+  **ccchat+++**        | optimized version of color-coded chat++ including also inline images (boolean: autoprev)             | C🕑 
   **stones**           | play stone sounds | B🕑
   unresign         | make the Resign button run away from the mouse during scoring     | B🕑
   **noundo**           | automatically decline any and all undo requests from the opponent | B🕑
