@@ -4,9 +4,9 @@ scripts for ShinKGS
 a generic project-folder to collect and store in one place bookmarklets that aim to enrich the ShinKGS experience. 
 
 Some examples:
- - color-coded chat, with censoring and anti-flood system: `ccchat++.js`
- - stone sounds `stones.js`
- - auto-decline undo requests `noundo.js`
+ - color-coded chat, with censoring and anti-flood system: `ccchat++.js` [link↗](https://github.com/darkronin/scriptKGS/blob/master/ccchat%2B%2B.js)
+ - stone sounds `stones.js` [link↗](https://github.com/darkronin/scriptKGS/blob/master/stones.js)
+ - auto-decline undo requests `noundo.js` [link↗](https://github.com/darkronin/scriptKGS/blob/master/noundo.js)
  
 List of all the scripts (type C = chatroom screen; B = board/goban screen):
 
