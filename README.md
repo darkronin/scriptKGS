@@ -8,6 +8,8 @@ Some examples:
  - stone sounds `stones.js` [link↗](https://github.com/darkronin/scriptKGS/blob/master/stones.js)
  - auto-decline undo requests `noundo.js` [link↗](https://github.com/darkronin/scriptKGS/blob/master/noundo.js)
  
+![banner](https://github.com/darkronin/scriptKGS/blob/master/screenshots/banner_scriptkgs.png)
+
 List of all the scripts (type C = chatroom screen; B = board/goban screen):
 
   Script           | Short description                                        | Type
