@@ -12,22 +12,22 @@ List of all the scripts (type C = chatroom screen; B = board/goban screen):
 
   Script           | Short description                                        | Type
   ---------------- | ---------------------------------------------------------|------
-  background color | Get your eyes some rest and kill the white background.   | C
-  **skin from URL**    | kill the white background but use an image instead       | C
-  rotate board     | Rotate the board 180 degrees - can be useful to match the relay board with the streaming video, if the relayer is sitting opposite the camera. | B
-  3D board         | Apply a perspective-3D effect to the board | B
-  coordinates      | removes coordinates from the board         | B
+  [background color](https://github.com/darkronin/scriptKGS/blob/master/background.js) | Get your eyes some rest and kill the white background.   | C
+  [**skin from URL**](https://github.com/darkronin/scriptKGS/blob/master/skin.js)    | kill the white background but use an image instead       | C
+  [rotate board](https://github.com/darkronin/scriptKGS/blob/master/rotateboard.js)     | Rotate the board 180 degrees - can be useful to match the relay board with the streaming video, if the relayer is sitting opposite the camera. | B
+  [3D board](https://github.com/darkronin/scriptKGS/blob/master/board3D.js)         | Apply a perspective-3D effect to the board | B
+  [coordinates](https://github.com/darkronin/scriptKGS/blob/master/coordinates.js)      | removes coordinates from the board         | B
   silly rotate     | Rotate the board clockwise like a clock    | B🕑
   censor           | custom ignore function that paints the unwanted users' messages black (it has the benefit of making you aware that something is being said while sparing you from seeing what it is; in any case using a "select all" will display the hidden text)  | C🕑
   **color-coded chat** | Assign a (random) colour to each and every user in your current chatroom and color their messages accordingly | C🕑
   ccchat+          | optimized version of color-coded chat including also the censor function (parameter: censorList) | C🕑
   **ccchat++**         | optimized version of color-coded chat+ including also the anti-flood function (parameter: MAXFLOOD)  | C🕑 
-  **ccchat+++**        | optimized version of color-coded chat++ including also inline images (boolean: autoprev)             | C🕑 
-  **stones**           | play stone sounds | B🕑
-  unresign         | make the Resign button run away from the mouse during scoring     | B🕑
-  **noundo**           | automatically decline any and all undo requests from the opponent | B🕑
-  noundo-strict    | like noundo, but removes your own undo button as well             | B🕑
-  expand images    | automatically show inline images when URLs are entered into the chat | C🕑 
+  [**ccchat+++**](https://github.com/darkronin/scriptKGS/blob/master/ccchat%2B%2B%2B.js)        | optimized version of color-coded chat++ including also inline images (boolean: autoprev)             | C🕑 
+  [**stones**](https://github.com/darkronin/scriptKGS/blob/master/stones.js)           | play stone sounds | B🕑
+  [unresign](https://github.com/darkronin/scriptKGS/blob/master/unresign.js)         | make the Resign button run away from the mouse during scoring     | B🕑
+  [**noundo**](https://github.com/darkronin/scriptKGS/blob/master/noundo.js)           | automatically decline any and all undo requests from the opponent | B🕑
+  [noundo-strict](https://github.com/darkronin/scriptKGS/blob/master/noundo-strict.js)    | like noundo, but removes your own undo button as well             | B🕑
+  [expand images](https://github.com/darkronin/scriptKGS/blob/master/expandimg.js)    | automatically show inline images when URLs are entered into the chat | C🕑 
   
 All scripts are local and affect one's instance/machine only.
 
