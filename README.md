@@ -7,6 +7,7 @@ Some examples:
  - color-coded chat, with censoring and anti-flood system: `ccchat++.js` [link↗](https://github.com/darkronin/scriptKGS/blob/master/ccchat%2B%2B.js)
  - stone sounds `stones.js` [link↗](https://github.com/darkronin/scriptKGS/blob/master/stones.js)
  - auto-decline undo requests `noundo.js` [link↗](https://github.com/darkronin/scriptKGS/blob/master/noundo.js)
+ - change colour of the board `colorpicker.js` [link↗](https://github.com/darkronin/scriptKGS/blob/master/colorpicker.js)
  
 ![banner](https://github.com/darkronin/scriptKGS/blob/master/screenshots/banner_scriptkgs.png)
 
