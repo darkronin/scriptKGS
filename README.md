@@ -9,6 +9,7 @@ Some examples:
  - auto-decline undo requests `noundo.js` [link↗](https://github.com/darkronin/scriptKGS/blob/master/noundo.js)
  - change colour of the board `colorpicker.js` [link↗](https://github.com/darkronin/scriptKGS/blob/master/colorpicker.js)
  
+ 
 ![banner](https://github.com/darkronin/scriptKGS/blob/master/screenshots/banner_scriptkgs.png)
 
 List of all the scripts (type C = chatroom screen; B = board/goban screen):
@@ -26,7 +27,7 @@ List of all the scripts (type C = chatroom screen; B = board/goban screen):
   ccchat+          | optimized version of color-coded chat including also the censor function (parameter: censorList) | C🕑
   **ccchat++**         | optimized version of color-coded chat+ including also the anti-flood function (parameter: MAXFLOOD)  | C🕑 
   [**ccchat+++**](https://github.com/darkronin/scriptKGS/blob/master/ccchat%2B%2B%2B.js)        | optimized version of color-coded chat++ including also inline images (boolean: autoprev)             | C🕑 
-  [color picker](https://github.com/darkronin/scriptKGS/blob/master/colorpicker.js)    | displays a HTML5 color picker to change the colour of the board (hit enter to accept the chosen colour) | B
+  [color picker](https://github.com/darkronin/scriptKGS/blob/master/colorpicker.js)    | displays a HTML5 color picker to change the colour of the board (hit enter to accept the chosen colour) - [looks like this](https://github.com/darkronin/scriptKGS/blob/master/screenshots/colorpicker2.png) | B
   [**stones**](https://github.com/darkronin/scriptKGS/blob/master/stones.js)           | play stone sounds | B🕑
   [unresign](https://github.com/darkronin/scriptKGS/blob/master/unresign.js)         | make the Resign button run away from the mouse during scoring     | B🕑
   [**noundo**](https://github.com/darkronin/scriptKGS/blob/master/noundo.js)           | automatically decline any and all undo requests from the opponent | B🕑
