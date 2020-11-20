@@ -1,0 +1,1 @@
+javascript:(function(){h=function(){var li = document.getElementsByClassName('ChatMessages-item');for(il2 = 0; il2 < li.length ; il2++){ li[il2].firstElementChild.children[1].innerHTML = li[il2].firstElementChild.children[1].innerHTML.replaceAll(`"`,`'`); }};h();setInterval(h, 5000);})();
