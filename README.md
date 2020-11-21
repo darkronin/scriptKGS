@@ -33,6 +33,8 @@ List of all the scripts (type C = chatroom screen; B = board/goban screen):
   [**noundo**](https://github.com/darkronin/scriptKGS/blob/master/noundo.js)           | automatically decline any and all undo requests from the opponent | B🕑
   [noundo-strict](https://github.com/darkronin/scriptKGS/blob/master/noundo-strict.js)    | like noundo, but removes your own undo button as well             | B🕑
   [expand images](https://github.com/darkronin/scriptKGS/blob/master/expandimg.js)    | automatically show inline images when URLs are entered into the chat | C🕑 
+  [unquote](https://github.com/darkronin/scriptKGS/blob/master/unquote.js)    | fixes shinKGS bug that renders single quote ' as double quotes " (by rendering everything as single quote) | C🕑 
+  
   
 All scripts are local and affect one's instance/machine only.
 
@@ -52,6 +54,7 @@ Note: The scripts broadly are divided in chat screen scripts, or board screen sc
   - [ ] cumulative amount of undos for a given player
   - [ ] notification when (a) specified user(s) come online or go out of sleep mode/"tag status change"
   - [X] ~~anti-flood feature (parametric - max 3 lines per user?)~~
+  - [ ] move marker in kibitz when a coordinate is entered in chat `[a-tA-T]\d{1,2}`
 
 ## HOW TO USE
 For the definition of a bookmarklet, see the [Wikipedia](https://en.wikipedia.org/wiki/Bookmarklet) or [Mozilla](https://support.mozilla.org/en-US/kb/bookmarklets-perform-common-web-page-tasks) page.
