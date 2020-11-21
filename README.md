@@ -7,7 +7,8 @@ Some examples:
  - color-coded chat, with censoring and anti-flood system: `ccchat++.js` [link↗](https://github.com/darkronin/scriptKGS/blob/master/ccchat%2B%2B.js)
  - stone sounds `stones.js` [link↗](https://github.com/darkronin/scriptKGS/blob/master/stones.js)
  - auto-decline undo requests `noundo.js` [link↗](https://github.com/darkronin/scriptKGS/blob/master/noundo.js)
- - change colour of the board `colorpicker.js` [link↗](https://github.com/darkronin/scriptKGS/blob/master/colorpicker.js)
+ - change colour of the board `colorpicker.js` [link↗](https://github.com/darkronin/scriptKGS/blob/master/colorpicker.js) [screenshot↗](https://github.com/darkronin/scriptKGS/blob/master/screenshots/colorpicker2.png)
+ - display a crosshair in kibitz `crosshair.js` [link↗](https://github.com/darkronin/scriptKGS/blob/master/crosshair.js) [screenshot↗](https://github.com/darkronin/scriptKGS/blob/master/screenshots/crosshair.png)
  
  
 ![banner](https://github.com/darkronin/scriptKGS/blob/master/screenshots/banner_scriptkgs.png)
@@ -34,6 +35,7 @@ List of all the scripts (type C = chatroom screen; B = board/goban screen):
   [noundo-strict](https://github.com/darkronin/scriptKGS/blob/master/noundo-strict.js)    | like noundo, but removes your own undo button as well             | B🕑
   [expand images](https://github.com/darkronin/scriptKGS/blob/master/expandimg.js)    | automatically show inline images when URLs are entered into the chat | C🕑 
   [unquote](https://github.com/darkronin/scriptKGS/blob/master/unquote.js)    | fixes shinKGS bug that renders single quote ' as double quotes " (by rendering everything as single quote) | C🕑 
+  [十/crosshair](https://github.com/darkronin/scriptKGS/blob/master/crosshair.js) | hovering over a chat message will display a crosshair on the board, a visual guide to find the first coordinate listed |  B🕑 
   
   
 All scripts are local and affect one's instance/machine only.
@@ -54,7 +56,7 @@ Note: The scripts broadly are divided in chat screen scripts, or board screen sc
   - [ ] cumulative amount of undos for a given player
   - [ ] notification when (a) specified user(s) come online or go out of sleep mode/"tag status change"
   - [X] ~~anti-flood feature (parametric - max 3 lines per user?)~~
-  - [ ] move marker in kibitz when a coordinate is entered in chat `[a-tA-T]\d{1,2}`
+  - [X] move marker in kibitz when a coordinate is entered in chat `[a-tA-T]\d{1,2}`
 
 ## HOW TO USE
 For the definition of a bookmarklet, see the [Wikipedia](https://en.wikipedia.org/wiki/Bookmarklet) or [Mozilla](https://support.mozilla.org/en-US/kb/bookmarklets-perform-common-web-page-tasks) page.
