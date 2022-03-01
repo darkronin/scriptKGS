@@ -4,6 +4,7 @@ javascript: (function() {
     function randomColor() {
         return '#' + Math.floor(Math.random() * 16777215).toString(16);
     }
+    var hardLogoff = true;
     var censorList = ["userstoCensor", "testuser1", "testuser2"]
       , cl = []/* censor keys */
     ;
@@ -14,8 +15,10 @@ javascript: (function() {
     for (il = 0; il < ul.length; il++) {
         utocensor = ul[il].innerText.split("]")[0];
         utocensorm = utocensor.split(" [")[0];
-        if (censorList.indexOf(utocensorm) > 0)
+        if (censorList.indexOf(utocensorm) > 0) {
+            /* old grayout */
             cl.push(utocensorm);
+        }
     }
     console.log(cl);
     for (il1 = 0; il1 < ul.length; il1++) {
@@ -28,6 +31,21 @@ javascript: (function() {
     }
     console.log(cla);
     var g = function() {
+        document.getElementsByClassName('RoomChat-messages')[0].style.background = 'cadetblue';
+        var ul = document.getElementsByClassName('UserList-item');
+        for (il = 0; il < ul.length; il++) {
+            utocensor = ul[il].innerText.split("]")[0];
+            utocensorm = utocensor.split(" [")[0];
+            if (censorList.indexOf(utocensorm) > 0) {
+                if (hardLogoff) {
+                    /* straight logoff */
+                    document.getElementsByClassName('MainNav-account-trigger')[0].click();
+                    var f = document.getElementsByClassName('MoreMenu-item')[1];
+                    f.click();
+                    alert('Logging out for your own protection');
+                }
+            }
+        }
         var li = document.getElementsByClassName('ChatMessages-item');
         for (ulai = 0; ulai < ula.length; ulai++)
             for (il2 = 0; il2 < li.length; il2++) {
@@ -61,7 +79,6 @@ javascript: (function() {
                 floodcount = 0;
             }
         }
-        /* update title with unread message from 2nd chat tab */
         var t1 = document.getElementsByClassName('ChatScreen-tab')[1];
         if (t1)
             if (t1.children[0].children[0].children[0].children[0]) {
@@ -72,10 +89,8 @@ javascript: (function() {
             }
     };
     g();
-    setInterval(g, 2500);
-    document.getElementsByClassName('RoomChat-messages')[0].style.background = 'cadetblue';
-    /* resizing of userlist */
-    document.getElementsByClassName('RoomChat-messages-container')[0].style.right = '90px';
-    document.getElementsByClassName('RoomChat-sidebar')[0].style.width = '90px';
+    setInterval(g, 2500);    
+    document.getElementsByClassName('RoomChat-messages-container')[0].style.right = '110px';
+    document.getElementsByClassName('RoomChat-sidebar')[0].style.width = '110px';
 }
 )();
